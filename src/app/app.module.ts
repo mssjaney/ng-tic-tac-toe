@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 import { BoardComponent } from './board/board/board.component';
 import { SquareComponent } from './square/square/square.component';
 
+import { GameService } from './services/game.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,7 +16,9 @@ import { SquareComponent } from './square/square/square.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [
+    GameService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
