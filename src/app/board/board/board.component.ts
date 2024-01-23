@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GameService } from 'src/app/services/game.service';
 
 interface Square {
   id: number;
@@ -13,7 +14,7 @@ interface Square {
 export class BoardComponent implements OnInit {
   public board: Square[] = [];
 
-  constructor() { }
+  constructor(public gameService: GameService) { }
 
   ngOnInit(): void {
     this.createBoard();
