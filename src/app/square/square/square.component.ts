@@ -17,7 +17,6 @@ export class SquareComponent implements OnInit {
   constructor(public gameService: GameService) { }
 
   ngOnInit(): void {
-    console.log(this.square.state)
   }
 
 }
