@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.16.
 
-It is a web game of tic tac toe.
+It is a web game of simple tic tac toe angular app.
 
 ## Development server
 
