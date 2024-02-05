@@ -3,6 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.16.
 
 It is a web game of simple tic tac toe angular app.
+Todo: implement DragDropModule
 
 ## Development server
 
